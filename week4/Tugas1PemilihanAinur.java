@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class PemilihanIfAinur {
+public class Tugas1PemilihanAinur {
     public static void main(String[] args) {
         Scanner uhuy = new Scanner(System.in);
 
@@ -12,7 +12,7 @@ public class PemilihanIfAinur {
         System.out.print("Selamat datang, silahkan masukkan status pembayaran UKT(true/false): ");
         statusUkt = uhuy.nextBoolean();
 
-        String status = (statusUkt) ? "Pembayaran telah dikonfirmasi, silahkan mencetak KRS yang telah disediakan" : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
+        String status = statusUkt ? "Pembayaran telah dikonfirmasi, silahkan mencetak KRS yang telah disediakan" : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
 
         System.out.println(status);
         
